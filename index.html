@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.structure-1.4.5.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme-1.4.5.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.icons-1.4.5.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.external-png-1.4.5.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.structure.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/my_css.css">
+
+    <title>OlivePizza</title>
+</head>
+
+<body>
+
+<!--home-->
+<div data-role="page" id="home">
+    <div data-role="header" data-id="navbar" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li class="my_tab">
+                    <a href="#home" class="ui-btn-active ui-state-persist ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+                </li>
+                <li class="my_tab"><a href="#call_us" class="ui-btn ui-icon-phone ui-btn-icon-left">Call Us</a></li>
+                <li class="my_tab"><a href="#menu" class="ui-btn ui-icon-bars ui-btn-icon-left">Menu</a></li>
+                <li class="my_tab"><a href="#order" class="ui-btn ui-icon-shop ui-btn-icon-left">Order</a></li>
+                <li class="my_tab"><a href="#location" class="ui-btn ui-icon-navigation ui-btn-icon-left">Location</a>
+                </li>
+                <li class="my_tab"><a href="#about_us" class="ui-btn ui-icon-info ui-btn-icon-left">About Us</a></li>
+            </ul>
+        </div>
+        <div data-role="footer" data-position="fixed" class="text-center">
+            <p>&#169; OlivePizza.com 2014</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <figure class="col-md-12">
+            <img id="pizza_banner" src="images/pizza_banner.png" class="img-rounded img-responsive center"
+                 alt="banner"/>
+        </figure>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4 text-center">
+            <h2 class="text-center headings">C'mon In!</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus porttitor commodo.
+                Morbi malesuada tortor sed enim consequat, nec hendrerit dolor vulputate. Morbi id erat a erat
+                bibendum rutrum. Maecenas posuere elit eu tincidunt tincidunt.Curabitur luctus porttitor commodo.
+                Morbi malesuada tortor sed enim</p>
+        </div>
+
+        <div class="col-sm-4 text-center">
+            <h2 class="text-center headings">Fun Facts</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus porttitor commodo.
+                Morbi malesuada tortor sed enim consequat, nec hendrerit dolor vulputate. Morbi id erat a erat
+                bibendum rutrum. Maecenas posuere elit eu tincidunt tincidunt.Curabitur luctus porttitor commodo.
+                Morbi malesuada tortor sed enim</p>
+        </div>
+
+        <div class="col-sm-4 text-center" id="direction">
+            <h2 class="headings">Directions/Info</h2> <br/>
+
+            <p>On the corner of Tomato Ave</p>
+
+            <p>1234 North Olive Lane</p>
+
+            <p>(555)-555-5555</p>
+
+            <p>OlivePizza@gmail.com</p>
+
+        </div>
+    </div>
+</div>
+
+<!--call us-->
+<div data-role="page" id="call_us">
+    <div data-role="header" data-id="navbar" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li class="my_tab"><a href="#home" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a></li>
+                <li class="my_tab">
+                    <a href="#call_us" class="ui-btn-active ui-state-persist ui-btn ui-icon-phone ui-btn-icon-left">Call
+                        Us</a>
+                </li>
+                <li class="my_tab"><a href="#menu" class="ui-btn ui-icon-bars ui-btn-icon-left">Menu</a></li>
+                <li class="my_tab"><a href="#order" class="ui-btn ui-icon-shop ui-btn-icon-left">Order</a></li>
+                <li class="my_tab"><a href="#location" class="ui-btn ui-icon-navigation ui-btn-icon-left">Location</a>
+                </li>
+                <li class="my_tab"><a href="#about_us" class="ui-btn ui-icon-info ui-btn-icon-left">About Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="content">
+        <h3 class="text-center">We are here to answer any questions, order now!</h3>
+        <img src="images/phone.png" class="img-responsive text-center" alt="phone">
+        <a href="tel:5555555555" data-role="button">Order Now (555)555-5555</a>
+    </div>
+    <div data-role="footer" data-position="fixed" class="text-center">
+        <p>&#169; OlivePizza.com 2014</p>
+    </div>
+</div>
+
+<!--menu-->
+<div data-role="page" id="menu">
+    <div data-role="header" data-id="navbar" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li class="my_tab"><a href="#home" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a></li>
+                <li class="my_tab"><a href="#call_us" class="ui-btn ui-icon-phone ui-btn-icon-left">Call Us</a></li>
+                <li class="my_tab">
+                    <a href="#menu" class="ui-btn-active ui-state-persist ui-btn ui-icon-bars ui-btn-icon-left">Menu</a>
+                </li>
+                <li class="my_tab"><a href="#order" class="ui-btn ui-icon-shop ui-btn-icon-left">Order</a></li>
+                <li class="my_tab"><a href="#location" class="ui-btn ui-icon-navigation ui-btn-icon-left">Location</a>
+                </li>
+                <li class="my_tab"><a href="#about_us" class="ui-btn ui-icon-info ui-btn-icon-left">About Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--  menu content-->
+    <div data-role="content">
+        <ul data-role="listview" data-inset="true">
+            <li data-role="list-divider"><h1 class="text-center">Pizza Toppings</h1></li>
+            <li><a href="#pepperoni" class="text-center">Pepperoni</a></li>
+            <li><a href="#mushrooms" class="text-center">Mushrooms</a></li>
+            <li><a href="#olives" class="text-center">Olives</a></li>
+            <li><a href="#canadian_bacon" class="text-center">Canadian Bacon</a></li>
+            <li data-role="list-divider"><h1 class="text-center">Pizza Crust</h1></li>
+            <li><a href="#cauliflower">Cauliflower</a></li>
+            <li><a href="#fat_fluffy">Fat and Fluffy</a></li>
+            <li><a href="#thin_crispy">Thin and Crispy</a></li>
+            <li><a href="#gluten_free">Gluten Free</a></li>
+            <li data-role="list-divider"><h1 class="text-center">Drinks</h1></li>
+
+            <!--drinks-->
+            <li class="row">
+                <figure class="col-xs-4 text-center ">
+                    <img src="images/diet_coke.png" class="img-rounded img-responsive"/>
+                    <figcaption>Diet Coke</figcaption>
+                </figure>
+                <figure class="col-xs-4 text-center">
+                    <img src="images/mountain_dew.png" class="img-rounded img-responsive"/>
+                    <figcaption>Mountain Dew</figcaption>
+                </figure>
+                <figure class="col-xs-4 text-center">
+                    <img src="images/powerade.png" class="img-rounded img-responsive"/>
+                    <figcaption>Powerade</figcaption>
+                </figure>
+            </li>
+
+            <li class="row">
+                <figure class="col-xs-4 text-center">
+                    <img src="images/coca_cola.png" class="img-rounded img-responsive"/>
+                    <figcaption>Coca-Cola</figcaption>
+                </figure>
+                <figure class="col-xs-4 text-center">
+                    <img src="images/pepsi.png" class="img-rounded img-responsive"/>
+                    <figcaption>Pepsi</figcaption>
+                </figure>
+                <figure class="col-xs-4 text-center">
+                    <img src="images/sprite.png" class="img-rounded img-responsive"/>
+                    <figcaption>Sprite</figcaption>
+                </figure>
+            </li>
+        </ul>
+    </div>
+    <div data-role="footer" data-position="fixed" class="text-center">
+        <p>&#169; OlivePizza.com 2014</p>
+    </div>
+</div>
+
+<!--pepperoni topping-->
+<div data-role="page" id="pepperoni">
+    <div class="row">
+        <figure class="col-md-12">
+            <img src="images/pepperoni.png" class="img-responsive img-rounded center" alt="pepperoni"/>
+            <figcaption class="text-center">Pepperoni</figcaption>
+        </figure>
+    </div>
+    <a href="#menu" class="pull-right" onclick="history.back();return false;">Back to Menu</a>
+
+    <div data-role="footer" data-position="fixed" class="text-center">
+        <p>&#169; OlivePizza.com 2014</p>
+    </div>
+</div>
+
+<!--mushroom topping-->
+<div data-role="page" id="mushrooms">
+    <div class="row">
+        <figure class="col-md-12">
+            <img src="images/mushroom.png" class="img-responsive img-rounded center" alt="mushroom"/>
+            <figcaption class="text-center">Mushrooms</figcaption>
+        </figure>
+    </div>
+    <a href="#menu" class="pull-right" onclick="history.back();return false;">Back to Menu</a>
+
+    <div data-role="footer" data-position="fixed" class="text-center">
+        <p>&#169; OlivePizza.com 2014</p>
+    </div>
+</div>
+
+<!--olive topping-->
+<div data-role="page" id="olives">
+    <div class="row">
+        <figure class="col-md-12">
+            <img src="images/olive.png" class="img-responsive img-rounded center" alt="olive"/>
+            <figcaption class="text-center">Olives</figcaption>
+        </figure>
+    </div>
+    <a href="#menu" class="pull-right" onclick="history.back();return false;">Back to Menu</a>
+
+    <div data-role="footer" data-position="fixed" class="text-center">
+        <p>&#169; OlivePizza.com 2014</p>
+    </div>
+</div>
+
+<!--canadian bacon topping-->
+<div data-role="page" id="canadian_bacon">
+    <div class="row">
+        <figure class="col-md-12">
+            <img src="images/canadian_bacon.png" class="img-responsive img-rounded center" alt="canadian_bacon"/>
+            <figcaption class="text-center">Canadian Bacon</figcaption>
+        </figure>
+    </div>
+    <a href="#menu" class="pull-right" onclick="history.back();return false;">Back to Menu</a>
+
+    <div data-role="footer" data-position="fixed" class="text-center">
+        <p>&#169; OlivePizza.com 2014</p>
+    </div>
+</div>
+
+<!--cauliflower crust-->
+<div data-role="page" id="cauliflower">
+    <div class="row">
+        <figure class="col-md-12">
+            <img src="images/cauliflower.png" class="img-responsive img-rounded center" alt="cauliflower"/>
+            <figcaption class="text-center">Cauliflower Crust</figcaption>
+        </figure>
+    </div>
+    <a href="#menu" class="pull-right" onclick="history.back();return false;">Back to Menu</a>
+
+    <div data-role="footer" data-position="fixed" class="text-center">
+        <p>&#169; OlivePizza.com 2014</p>
+    </div>
+</div>
+
+<!--fat and fluffy crust-->
+<div data-role="page" id="fat_fluffy">
+    <div class="row">
+        <figure class="col-md-12">
+            <img src="images/fat_fluffy.png" class="img-responsive img-rounded center" alt="fat_fluffy"/>
+            <figcaption class="text-center">Fat and Fluffy Crust</figcaption>
+        </figure>
+    </div>
+    <a href="#menu" class="pull-right" onclick="history.back();return false;">Back to Menu</a>
+
+    <div data-role="footer" data-position="fixed" class="text-center">
+        <p>&#169; OlivePizza.com 2014</p>
+    </div>
+</div>
+
+<!--thin and crispy crust-->
+<div data-role="page" id="thin_crispy">
+    <div class="row">
+        <figure class="col-md-12">
+            <img src="images/thin_crispy.png" class="img-responsive img-rounded center" alt="thin_crispy"/>
+            <figcaption class="text-center">Thin and Crispy Crust</figcaption>
+        </figure>
+    </div>
+    <a href="#menu" class="pull-right" onclick="history.back();return false;">Back to Menu</a>
+
+    <div data-role="footer" data-position="fixed" class="text-center">
+        <p>&#169; OlivePizza.com 2014</p>
+    </div>
+</div>
+
+<!--gluten free crust-->
+<div data-role="page" id="gluten_free">
+    <div class="row">
+        <figure class="col-md-12">
+            <img src="images/gluten_free.png" class="img-responsive img-rounded center" alt="gluten_free"/>
+            <figcaption class="text-center">Gluten Free Crust</figcaption>
+        </figure>
+    </div>
+    <a href="#menu" class="pull-right" onclick="history.back();return false;">Back to Menu</a>
+
+    <div data-role="footer" data-position="fixed" class="text-center">
+        <p>&#169; OlivePizza.com 2014</p>
+    </div>
+</div>
+
+<!--order-->
+<div data-role="page" id="order">
+    <div data-role="header" data-id="navbar" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li class="my_tab"><a href="#home" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a></li>
+                <li class="my_tab"><a href="#call_us" class="ui-btn ui-icon-phone ui-btn-icon-left">Call Us</a></li>
+                <li class="my_tab"><a href="#menu" class="ui-btn ui-icon-bars ui-btn-icon-left">Menu</a></li>
+                <li class="my_tab">
+                    <a href="#order"
+                       class="ui-btn-active ui-state-persist ui-btn ui-icon-shop ui-btn-icon-left">Order
+                    </a>
+                </li>
+                <li class="my_tab"><a href="#location" class="ui-btn ui-icon-navigation ui-btn-icon-left">Location</a>
+                </li>
+                <li class="my_tab"><a href="#about_us" class="ui-btn ui-icon-info ui-btn-icon-left">About Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="content">
+
+        <div data-product="1" class="text-center">
+            <span data-name="Pepperoni Pizza">Pepperoni Pizza</span>
+            <span data-price="9.99">$9.99</span>
+        </div>
+
+        <div data-product="2" class="text-center">
+            <span data-name="Mushroom Pizza">Mushroom Pizza</span>
+            <span data-price="8.99">$8.99</span>
+        </div>
+
+        <div data-product="3" class="text-center">
+            <span data-name="Olive Pizza">Olive Pizza</span>
+            <span data-price="10.22">$10.22</span>
+        </div>
+
+        <div data-product="4" class="text-center">
+            <span data-name="Canadian Bacon Pizza">Canadian Bacon Pizza</span>
+            <span data-price="13.44">$13.44</span>
+        </div>
+
+        <div data-product="5" class="text-center">
+            <span data-name="Diet Coke">Diet Coke</span>
+            <span data-price="0.99">$0.99</span>
+        </div>
+
+        <div data-product="6" class="text-center">
+            <span data-name="Mountain Dew">Mountain Dew</span>
+            <span data-price="0.99">$0.99</span>
+        </div>
+
+        <div data-product="7" class="text-center">
+            <span data-name="Powerade">Powerade</span>
+            <span data-price="0.99">$0.99</span>
+        </div>
+
+        <div data-product="8" class="text-center">
+            <span data-name="Coca-Cola">Coca-Cola</span>
+            <span data-price="0.99">$0.99</span>
+        </div>
+
+        <div data-product="9" class="text-center">
+            <span data-name="Pepsi">Pepsi</span>
+            <span data-price="0.99">$0.99</span>
+        </div>
+
+        <div data-product="10" class="text-center">
+            <span data-name="Sprite">Sprite</span>
+            <span data-price="0.99">$0.99</span>
+        </div>
+
+    </div>
+
+    <div id="cartDiv" class="text-center">
+
+    </div>
+
+    <div id="buy_form" class="center">
+        <form method="POST" action="buy.php">
+            <input type="text" class="txt_box" name="name" placeholder="Enter Name" value="" required/><br/>
+            <input type="email" class="txt_box" name="email" placeholder="Enter Email" value="" required/><br/> <br/>
+            <input type="submit" name="submit" value="Place Order"/>
+        </form>
+    </div>
+
+    <div>
+        <button id="buy">Buy Now</button>
+    </div>
+
+    <div>
+        <button id="saveOrder">Save Order</button>
+    </div>
+
+    <div>
+        <button id="loadOrder">Load Order</button>
+    </div>
+
+    <div data-role="footer" data-position="fixed" class="text-center">
+        <p>&#169; OlivePizza.com 2014</p>
+    </div>
+
+</div>
+
+<!--location-->
+<div data-role="page" id="location">
+    <div data-role="header" data-id="navbar" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li class="my_tab"><a href="#home" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a></li>
+                <li class="my_tab"><a href="#call_us" class="ui-btn ui-icon-phone ui-btn-icon-left">Call Us</a></li>
+                <li class="my_tab"><a href="#menu" class="ui-btn ui-icon-bars ui-btn-icon-left">Menu</a></li>
+                <li class="my_tab"><a href="#order" class="ui-btn ui-icon-shop ui-btn-icon-left">Order</a></li>
+                <li class="my_tab">
+                    <a href="#location"
+                       class="ui-btn-active ui-state-persist ui-btn ui-icon-navigation ui-btn-icon-left">Location
+                    </a>
+                </li>
+                <li class="my_tab"><a href="#about_us" class="ui-btn ui-icon-info ui-btn-icon-left">About Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="content">
+        <div class="text-center">
+            <span id="url"></span>
+        </div>
+
+        <div id="map" class="text-center">
+
+        </div>
+
+    </div>
+    <div data-role="footer" data-position="fixed" class="text-center">
+        <p>&#169; OlivePizza.com 2014</p>
+    </div>
+</div>
+
+<!--about us-->
+<div data-role="page" id="about_us">
+    <div data-role="header" data-id="navbar" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li class="my_tab"><a href="#home" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a></li>
+                <li class="my_tab"><a href="#call_us" class="ui-btn ui-icon-phone ui-btn-icon-left">Call Us</a></li>
+                <li class="my_tab"><a href="#menu" class="ui-btn ui-icon-bars ui-btn-icon-left">Menu</a></li>
+                <li class="my_tab"><a href="#order" class="ui-btn ui-icon-shop ui-btn-icon-left">Order</a></li>
+                <li class="my_tab"><a href="#location" class="ui-btn ui-icon-navigation ui-btn-icon-left">Location</a>
+                </li>
+                <li class="my_tab">
+                    <a href="#about_us" class="ui-btn-active ui-state-persist ui-btn ui-icon-info ui-btn-icon-left">About
+                        Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="content">
+        <h3 class="text-center">About OlivePizza</h3>
+
+        <img src="images/store.png" class="img-responsive center img-rounded" alt="store">
+
+        <h3 class="text-center">Origins</h3>
+
+        <p class="text-center">OlivePizza is known for its delicious and consistent pizza.
+            Pheng Xiong began this business over a decade ago in 2004 and his service has never wavered.
+            OlivePizza delivers the freshest ingredients on the planet for a mouthwatering experience.
+            Come try our famous pizza, you won't regret it! Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Donec eu neque leo. Sed congue eget tortor sit amet eleifend.
+            Nunc id facilisis nunc, id tempor ligula. Proin convallis sapien mi, posuere auctor purus gravida quis.
+            Phasellus et sapien eget leo fringilla fermentum. Donec vitae dictum eros, vel varius purus.</p>
+
+        <h3 class="text-center">Have you spotted us?</h3>
+
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu neque leo. Sed congue
+            eget
+            tortor sit amet eleifend.
+            Nunc id facilisis nunc, id tempor ligula. Proin convallis sapien mi, posuere auctor purus gravida quis.
+            Phasellus et sapien eget leo fringilla fermentum. Donec vitae dictum eros, vel varius purus.
+            Sed sem dui, efficitur id efficitur non, venenatis at lacus. Sed finibus fringilla ultricies.
+            Donec hendrerit neque ut risus accumsan, non imperdiet diam lobortis. Nullam eu eros sapien.
+            Fusce fringilla lacus nec risus pellentesque tincidunt.</p>
+    </div>
+    <div data-role="footer" data-position="fixed" class="text-center">
+        <p>&#169; OlivePizza.com 2014</p>
+    </div>
+</div>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/my_js.js"></script>
+</body>
+</html>

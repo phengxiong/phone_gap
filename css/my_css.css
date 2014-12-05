@@ -1,0 +1,29 @@
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headings {
+    font-family: "Rosario";
+}
+
+.num {
+    font-weight: bold;
+}
+
+.item {
+    display: inline-block;
+    width: 200px;
+}
+
+.txt_box {
+    width: 265px;
+}
+
+#buy_form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    text-align: center;
+}
