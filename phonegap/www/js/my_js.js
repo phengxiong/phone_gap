@@ -91,4 +91,19 @@ $(document).ready(function () {
         console.log("http://cis217-4.phengxiong.com/buy.html?" + buyUrl);
     });
 
+
+
+
+    function onDeviceReady()
+    {
+        var volumeSlider = window.plugins.volumeSlider;
+        volumeSlider.createVolumeSlider(10,350,300,30); // origin x, origin y, width, height
+        volumeSlider.showVolumeSlider();
+    }
+
+    onDeviceReady();
+
+
+
+
 });
